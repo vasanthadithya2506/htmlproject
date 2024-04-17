@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+   <h1>LLR registration form</h>
+    <form action="main.py" method="post">
+    <div>
+        <label for="name:">name:</label>
+    <input type="text" name="name" id="name"></div><br>
+    <div><label for="age">age:</label>
+    <input type="number" name="age" id="age"></div><br>
+    <div><label for="DOB">date of birth:</label>
+    <input type="date" name="DOB" id="DOB"></div><br>
+    <div><label for="gmail">gmail:</label><input type="email" name="mail" id="mail"></div><br>
+    <p>select gender:</p>
+    <input type="radio" name="male" id="male">
+    <label for="male">male</label>
+    <input type="radio" name="male" id="female">
+    <label for="female">female</label><br>
+    <p>type of vehicles:</p>
+    <input type="checkbox" name="vehicles" id="2 wheeler"><label for="2 wheeler">2 wheeler</label><br>
+    <input type="checkbox" name="vehicles" id="3 wheeler"> <label for="3 wheeler">3 wheeler</label><br>
+    <input type="checkbox" name="vehicles" id="4 wheeler"><label for="4 wheeler">4 wheeler</label><br>
+    <input type="checkbox" name="vehicles" id="more than 4 wheeler"><label for="more than 4 wheeler">more than 4 wheeler</label><br>
+    <p>list of vehicles:</p>
+    <select name="list of vehicles" id="list of vehicles">
+    <optgroup label="2 wheelers">
+        <option value="2">bike</option>
+        <option value="2">scooty</option>
+        <option value="2">tvs</option>
+    </optgroup>
+    <optgroup label="3 wheeler">
+        <option value="3">auto</option>
+    </optgroup>
+    <optgroup label="4 wheeler">
+        <option value="4">car</option>
+    <option value="4">jeep</option> </optgroup>
+    <optgroup label="more than 4 wheeler">
+        <option value="4">lorries</option>
+        <option value="4">tracter</option>
+        <option value="4">buses</option>
+    </optgroup>
+    
+</select><br><br>
+<button>submit</button>
+    </form>
+</body>
+</html>
