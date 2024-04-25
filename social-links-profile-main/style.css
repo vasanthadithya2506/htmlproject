@@ -12,7 +12,6 @@ body{
 }
 .main{
         background-color:hsl(0, 0%, 12%);
-        
         text-align: center;
         border-radius: 12px;
         padding: 28px 22px;
@@ -22,12 +21,11 @@ img{
             width: 60px;
         
          }
-        .h2{
-            color:white;
+        .h2 {
+            color: white;
             font-size: 20px;
             margin-bottom: 8px;
             font-size: 12px;
-            color: hsl(75,94%,57%);
          }
         .name{
             color: yellow;
@@ -59,6 +57,7 @@ img{
 .box button:hover{
     background: yellow;
     border: 1px solid rgba(255,255, 255,0.723);
+
     transition: all 0.2s ease-in-out;
 }
 .box {
