@@ -1,0 +1,27 @@
+@import url('https://fonts.google.com/share?selection.family=Karla:ital,wght@0,200..800;1,200..800');
+body{
+    font-family: "karla",sans-serif;
+    font-weight: 400;
+}
+.main block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 52px 52px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 300px 320px;
+
+}
+.first-block{
+    background-color: #fff;
+}
+.third-block{
+    background-color: hsl(179dg 71.12% 44.91% / 65%);
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
