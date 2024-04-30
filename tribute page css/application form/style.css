@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    background-color: darkolivegreen;
+    height: max-content;
+    width: max-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+.form_contro {
+    display: flex;
+    flex-direction: column;
+
+}
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
